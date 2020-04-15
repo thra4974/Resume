@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  /* h1:hover { */
+  /*     background-color: #757575; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #2455ab;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #a6c3f5;
+  }
+  /* h2:hover { */
+  /*     background-color: #397249; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      font-weight: bold;
+  }
+  dd {
+      margin-left: 17%;
+      margin-bottom:7px;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #2455ab;
+  }
+  a:hover, a:active {
+      background-color: #2455ab;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="tristan-thrasher">Tristan Thrasher</h1>
+<hr />
+<blockquote>
+<p>“Before I came here I was confused about this subject. Having listened to your lecture I am still confused. But on a higher level.” - Enrico Fermi</p>
+</blockquote>
+<hr />
+<h2 id="education">Education</h2>
+<dl>
+<dt>January 2020 (Expected 2020)</dt>
+<dd><p><strong>Software Engineer</strong>; Holberton School for Software Engineers (Tulsa, OK)</p>
+<p><em>Coding bootcamp for software engineers. Curriculum includes: low level/systems programming and full-stack web development.</em></p>
+</dd>
+<dt>August 2014</dt>
+<dd><p><strong>BS, Astrophysics</strong>; University of Oklahoma (Norman)</p>
+<p><em>Minor: Mathematics</em></p>
+</dd>
+</dl>
+<h2 id="experience">Experience</h2>
+<p><strong>NASA Photovoltaic Device Characterization Intern:</strong></p>
+<p>Consisted of two internships, the first starting in 2017 as an LSAMP Scholar at OU. Continuous participation led to an internship in 2018 at the NASA Glenn Research Center to conduct research related to next generation solar cell technology:</p>
+<ul>
+<li><p>Mars Simulant Solar Experiment (NASA GRC) - PVSC Conference Proceedings (2018)</p></li>
+<li><p>Investigating Radiation Hardiness of CIGS Cells for Deep Space Applications <a href="https://drive.google.com/file/d/10opIi62XWhzqFAM0khURyx0S2Spl7wXP/view?usp=sharing" target="_blank">(Final Report)</a>.</p></li>
+</ul>
+<p><strong>OU Photovoltaic Device Research Assistant</strong></p>
+<p>Conducted various experiments on Indium Gallium Arsenide solar cells. Summarized and presented findings in a <a href="https://www.nhn.ou.edu/~abbott/REU/Thrasher_final_talk.pdf" target="_blank">technical report</a> at the 2017 REU conference.</p>
+<h2 id="technical-experience">Technical Experience</h2>
+<dl>
+<dt>Holberton</dt>
+<dd>Some projects are completed and others are currently in progress
+</dd>
+<dd><ul>
+<li>School - Building a Linux shell, singly-linked lists, pointer functions systems engineering</li>
+</ul>
+</dd>
+<dd><ul>
+<li>Personal - Making a basic short film using C programing language</li>
+</ul>
+</dd>
+<dt>Collaborative Projects</dt>
+<dd>Includes remote NASA projects and open-source school projects. Remote collaboration using Zoom, google hangouts, slack, discord, and Trello for organization.
+</dd>
+<dd><ul>
+<li>School - Creating our own <a href="https://github.com/thra4974/printf" target="_blank">printf</a> function in C</li>
+</ul>
+</dd>
+<dd><ul>
+<li>NASA - Mission Concept Academy <a href="https://bit.ly/34HUg4X" target="_blank">certificate</a></li>
+</ul>
+</dd>
+<dd><ul>
+<li>NASA - Proposal Writing and Evaluation Academy</li>
+</ul>
+</dd>
+<dt>Programming Languages</dt>
+<dd><strong>C:</strong> Low-level programming projects. Build and recreate functions from scratch. Build a Linux shell using execve function. Not allowed to use standard libray. Must build from scratch.
+</dd>
+<dd><p><strong>HTML &amp; CSS:</strong> Self-taught. Application process for Holberton required creation of an original website from scratch using HTML, CSS, and Javascript.</p>
+</dd>
+<dd><p>Basic knowledge of <strong>Python</strong>, <strong>x86 assembly</strong>, <strong>SQL</strong>, <strong>Bash (Linux)</strong>, <strong>Jquery</strong>, <strong>Bootstrap</strong></p>
+</dd>
+</dl>
+<h2 id="extra-things-about-me">Extra Things About Me</h2>
+<ul>
+<li>Placed second in the <strong>NASA Proposal Writing and Evaluations Academy</strong> out of 16 teams</li>
+<li>Homer L Dodge Department of Physics and Astronomy Scholar</li>
+<li>Louis Stokes Alliance for Minority Participation in STEM scholar</li>
+<li><p>I enjoy making fun and engaging presentations:</p>
+<ul>
+<li><a href="https://bit.ly/2V8cDwH" target="_blank">Reasons Why I Fear the Ocean</a></li>
+<li><a href="https://bit.ly/3bb1a54" target="_blank">First Attempt at Pronouncing These Difficult Words</a></li>
+<li><a href="https://bit.ly/34yhcna" target="_blank">How to Do a Backflip</a></li>
+</ul></li>
+</ul>
+<hr />
+<blockquote>
+<p><a href="mailto:tristan.thrasher-1@ou.edu">tristan.thrasher-1@ou.edu</a> • +1 918 240 3590 • 23 years old<br />
+Residency - Tulsa OK, United States</p>
+</blockquote>
+</body>
+</html>
